@@ -9,4 +9,5 @@ import (
 func DoSomething() {
 	random := entities.Deck{"random"}
 	fmt.Println(random)
+	fmt.Println("Hello from module")
 }
